@@ -159,44 +159,37 @@ a {
 	font-family: 'Roboto', sans-serif;
 }
 
-.button {
-	position: absolute;
-	left: 100px;
-	top: 280px;
+.text-block, a.button{
+  margin: 5px;
+}
+
+a.button {
+	position: relative;
+	left: 90px;
+	top: 260px;
 	border: 2px solid black;
 	color: white;
-	padding: 13px 32px;
+	padding: 0.6em 1.5em;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
 	font-size: 16px;
-	margin: 4px 2px;
+	margin: 16px 5px ;
 	cursor: pointer;
-	border-radius: 3px;
+	border-radius: 5px;
+
 }
 
-.button:hover {
+a.button:hover {
 	background-color: black;
 }
 
-.button2 {
-	position: absolute;
-	left: 250px;
-	top: 280px;
-	border: 2px solid black;
-	color: white;
-	padding: 13px 32px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	margin: 4px 2px;
-	cursor: pointer;
-	border-radius: 3px;
+
+@media screen and (max-width: 768px) {
+a.button {
+    margin-top: 60px;
+    float: none;
 }
 
-.button2:hover {
-	background-color: black;
-}
 
 
